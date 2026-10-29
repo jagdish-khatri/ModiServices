@@ -289,3 +289,4 @@ For technical issues, refer to:
 - [NextAuth Documentation](https://next-auth.js.org/getting-started/introduction)
 - [Recharts Documentation](https://recharts.org/en-US/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
