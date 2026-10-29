@@ -4,6 +4,13 @@ const nextConfig = {
   images: {
     remotePatterns: [],
   },
+  experimental: {
+    // Include the data/ directory in serverless function bundles (Vercel)
+    outputFileTracingRoot: process.cwd(),
+    outputFileTracingIncludes: {
+      "/": ["./data/**/*"],
+    },
+  },
 };
 
 module.exports = nextConfig;
